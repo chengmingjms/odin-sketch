@@ -1,0 +1,14 @@
+:root {
+    --square-size: 20px;
+}
+
+#container {
+    display: flex;
+
+}
+
+.square {
+    width: var(--square-size);
+    height: var(--square-size);
+    border: black solid 1px;
+}
