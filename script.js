@@ -7,6 +7,7 @@ for (var i = 0; i < rows; i++) {
     for (var j = 0; j < rows; j++) {
         var newDiv = document.createElement("div");
         newDiv.classList.add("square");
+        newDiv.addEventListener("mouseover", function(e) {e.target.style.backgroundColor = "black"})
         rowDiv.appendChild(newDiv);
     }
 }
