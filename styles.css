@@ -1,14 +1,24 @@
-:root {
+/* :root {
     --square-size: 20px;
-}
+} */
 
 #container {
-    display: inline-flex;
     border: black solid 1px;
+    flex-direction: column;
+    display: flex;
+    width: 960px;
+    height: 960px;
 }
 
 .square {
-    width: var(--square-size);
-    height: var(--square-size);
+    /* width: var(--square-size);
+    height: var(--square-size); */
     border: lightgray solid 1px;
+    flex: 1 1 auto;
+}
+
+.insideContainer {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
 }

@@ -8,7 +8,8 @@ newGridBtn.addEventListener("click", function () {
     }
     clearGrid()
     createGrid(size)
-})
+}
+)
 createGrid(rows)
 
 function createGrid(rows) {
