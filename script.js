@@ -2,7 +2,10 @@ var rows = 16;
 const containerDiv = document.querySelector("#container");
 const newGridBtn = document.querySelector("#newGridBtn")
 newGridBtn.addEventListener("click", function () {
-    var size = prompt("How big should the square be? (1-100)")
+    var size = 0
+    while (size < 1 | size > 100) {
+        size = prompt("How big should the square be? (1-100)")
+    }
     clearGrid()
     createGrid(size)
 })
