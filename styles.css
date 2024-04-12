@@ -3,12 +3,12 @@
 }
 
 #container {
-    display: flex;
-
+    display: inline-flex;
+    border: black solid 1px;
 }
 
 .square {
     width: var(--square-size);
     height: var(--square-size);
-    border: black solid 1px;
+    border: lightgray solid 1px;
 }
